@@ -1,6 +1,7 @@
+ // Powered by Mice_Eff https://youtu.be/5CnvRkqEsGU          
             #include <Adafruit_NeoPixel.h> //https://github.com/adafruit/Adafruit_NeoPixel
             #include <SPI.h> 
-            #include <ESP8266WiFi.h> // ля, забыл сказать что примеh Standalone появился, надо установить библиотеку Blynk https://github.com/blynkkk/blynk-library/releases/tag/v0.6.1
+            #include <ESP8266WiFi.h> // ля, забыл сказать что пример Standalone появился, надо установить библиотеку Blynk https://github.com/blynkkk/blynk-library/releases/tag/v0.6.1
             #include <BlynkSimpleEsp8266.h>
             #include <SimpleTimer.h> 
             #include <DHT.h> //https://github.com/adafruit/DHT-sensor-library
@@ -47,7 +48,7 @@ void setup(){
   pinMode(f,OUTPUT);
     pinMode(PIN_TRIG, OUTPUT); 
     pinMode(PIN_ECHO, INPUT);
-     pinMode(pir,OUTPUT); 
+     
      pixels.begin();
        pinMode(rele, OUTPUT); 
        digitalWrite(rele, HIGH);
@@ -98,5 +99,5 @@ void loop(){
 
      
 }
-// Powered by Mice_Eff https://youtu.be/5CnvRkqEsGU
+
 
