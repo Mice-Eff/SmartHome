@@ -14,7 +14,7 @@
 #define MAX_DISTANCE 200// макс расстояние измеряемое дальномером
 char auth[] = "токен";// название токена
 char ssid[] = "wi-fi";  //название wi-fi
-char pass[] = "пароль ";  //пароль от wi-fi
+char pass[] = "пароль";  //пароль от wi-fi
 #define DHTPIN 2       // пин dh11
 #define DHTTYPE DHT11     // DHT 11
 //#define DHTTYPE DHT22   // DHT 22, AM2302, AM2321 
