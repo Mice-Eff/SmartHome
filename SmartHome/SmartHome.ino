@@ -1,6 +1,6 @@
- // Powered by Mice_Eff https://youtu.be/5CnvRkqEsGU          
+ // CREATED BY MICE EFF https://youtu.be/5CnvRkqEsGU          
             #include <Adafruit_NeoPixel.h> //https://github.com/adafruit/Adafruit_NeoPixel
-            #include <SPI.h> 
+            #include <SPI.h>  // https://github.com/PaulStoffregen/SPI
             #include <ESP8266WiFi.h> // ля, забыл сказать что пример Standalone появился, надо установить библиотеку Blynk https://github.com/blynkkk/blynk-library/releases/tag/v0.6.1
             #include <BlynkSimpleEsp8266.h>
             #include <SimpleTimer.h> 
@@ -99,5 +99,3 @@ void loop(){
 
      
 }
-
-
